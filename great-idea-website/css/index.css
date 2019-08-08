@@ -64,17 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+* {
+	box-sizing: border-box;
+}
 
 /* NAVIGATION STYLES */
 nav{
-	margin:10px;
+	width:100%;
+	margin: auto;
 }
 
 nav a{
 	color:lightgray;
 	text-decoration: none;
-	padding: 50px;
+	padding: 30px;
 }
 
 .logo{
@@ -85,10 +88,21 @@ nav a{
 /* HEADER STYLES */
 
 header {
-	width: 100px;
+	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid black;
-	display:inline-block;
+	margin: 50px 10px 50px 100px;
+	
+}
+
+header .titleText {
+	font-size:60px;
+	text-align:center;
+	display: inline-block;
+}
+
+.button{
+	border: 1px solid black;
+	font-size: 20px;
 }
 
 /* CONTENT STYLES */
@@ -113,13 +127,22 @@ header {
 }
 
 .bottomContent p {
+	display:flex;
+	width:30%;
+	
+}
+
+.services .product .vision {
 	display:inline-block;
+	padding: 
 }
 
 .contact{
 	border-top: 1px solid black;
 }
 
+
+/* FOOTER */
 footer {
 	text-align: center;
 }
